@@ -1,0 +1,104 @@
+/* Estilo general */
+body {
+    background-color: #e0f7fa; /* Azul claro congelado */
+    color: #01579b; /* Azul profundo */
+    font-family: 'Orbitron', sans-serif;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #b3e5fc; /* Azul hielo suave */
+    color: #01579b; /* Azul profundo */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px #81d4fa; /* Sombra azul brillante */
+}
+
+/* Estilo de la barra de navegación */
+.navbar {
+    background-color: #b3e5fc; /* Azul hielo suave */
+    border-bottom: 2px solid #01579b; /* Azul profundo */
+}
+
+.navbar-brand, .nav-link {
+    color: #01579b !important; /* Azul profundo */
+}
+
+.nav-link:hover {
+    color: #0288d1 !important; /* Azul hielo */
+}
+
+/* Estilo de las imágenes */
+img {
+    border: 2px solid #81d4fa; /* Azul brillante */
+    border-radius: 8px;
+    box-shadow: 0 0 20px #81d4fa; /* Sombra brillante */
+}
+
+/* Estilo de los títulos */
+h1, h2 {
+    color: #01579b; /* Azul profundo */
+    text-shadow: 0 0 15px #81d4fa; /* Sombra azul brillante */
+}
+
+/* Estilo de los párrafos */
+p {
+    color: #01579b; /* Azul profundo */
+}
+
+/* Estilo de los enlaces */
+a {
+    color: #378dcf; /* Azul profundo */
+}
+
+a:hover {
+    color: #02cad1; /* Azul hielo */
+}
+
+/* Estilo de la lista de elementos */
+.list-group-item {
+    background-color: #b3e5fc; /* Azul hielo suave */
+    color: #01579b; /* Azul profundo */
+    border: 1px solid #81d4fa; /* Azul brillante */
+    box-shadow: 0 0 15px #81d4fa; /* Sombra azul brillante */
+}
+
+/* Estilo del formulario */
+form {
+    background-color: #b3e5fc; /* Azul hielo suave */
+    color: #01579b; /* Azul profundo */
+    border: 1px solid #81d4fa; /* Azul brillante */
+    border-radius: 8px;
+    box-shadow: 0 0 20px #81d4fa; /* Sombra brillante */
+}
+
+/* Estilo de los inputs del formulario */
+.form-control {
+    background-color: #e1f5fe; /* Azul hielo muy claro */
+    color: #01579b; /* Azul profundo */
+    border: 1px solid #81d4fa; /* Azul brillante */
+}
+
+.form-control:focus {
+    border-color: #0288d1; /* Azul hielo */
+    box-shadow: 0 0 15px #0288d1; /* Sombra azul hielo */
+}
+
+/* Estilo del botón */
+.btn-primary {
+    background-color: #81d4fa; /* Azul brillante */
+    border: none;
+    box-shadow: 0 0 15px #81d4fa; /* Sombra azul brillante */
+}
+
+.btn-primary:hover {
+    background-color: #0288d1; /* Azul hielo */
+    box-shadow: 0 0 20px #0288d1; /* Sombra azul hielo */
+}
+
+/* Espaciado adicional entre secciones */
+.row {
+    margin-bottom: 40px;
+}
